@@ -12,5 +12,7 @@
 }
 
 #gendalf-hero{
+  position:absolute;
   width:60%;
+  bottom:0;
 }
