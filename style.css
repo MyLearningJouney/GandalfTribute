@@ -1,10 +1,19 @@
+@font-face {
+  font-family: 'Tengwar Cursive'; /*a name to be used later*/
+  src: url('/assets/TengwarCursive.woff2'); /*URL to font*/
+}
+
 *{
   font-family: 'Montserrat', sans-serif;
 }
 
+body{
+  margin:0;
+  background-color: #FDFFFA;
+}
+
 .container{
-  padding: 0 3%;
-  width: 100%;
+  width: 100%
 }
 
 .hero{
@@ -38,7 +47,7 @@
   margin-bottom:0;
   left:50%;
   margin-left:-710px;
-
+  overflow-x: clip;
 }
 
 .hero-subtitle{
@@ -58,4 +67,20 @@
   left: 55%;
   right: 15%;
   color: white;
+}
+
+.hero-detail{
+  position: absolute;
+  display: inline;
+  font-family: 'Tengwar Cursive';
+  font-weight: normal;
+  font-style: normal;
+  color: #FEDA15;
+  font-size: 70px;
+  white-space: nowrap;
+  left: 0;
+  right: 0;
+  top: 85%;
+  margin: 0;
+  overflow-x: clip;
 }
