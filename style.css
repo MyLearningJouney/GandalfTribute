@@ -32,7 +32,7 @@ body{
 
 #gandalf-hero{
   position:absolute;
-  width:750px;
+  height:110%;
   bottom:0;
   right:45%;
 }
@@ -40,38 +40,41 @@ body{
 .hero-title{
   position:absolute;
   display:inline;
-  font-size:270px;
+  font-size:37vh;
   color:white;
   opacity: 0.3;
   margin-top:0;
   margin-bottom:0;
   left:50%;
-  margin-left:-710px;
   overflow-x: clip;
+  transform: translate(-50%, 0);
+  font-weight: 900;
 }
 
 .hero-subtitle{
   position: absolute;
   display: inline;
   top: 50%;
-  left: 55%;
-  right: 15%;
+  left: 50%;
+  right: 20%;
   color: white;
   font-style: italic;
+  font-weight: 900;
 }
 
 .hero-p{
   position: absolute;
   display: inline;
   top: 62%;
-  left: 55%;
-  right: 15%;
+  left: 50%;
+  right: 20%;
   color: white;
+  font-weight: 300;
 }
 
-.hero-detail{
+.yellow-detail{
   position: absolute;
-  display: inline;
+  display:inline;
   font-family: 'Tengwar Cursive';
   font-weight: normal;
   font-style: normal;
@@ -80,7 +83,182 @@ body{
   white-space: nowrap;
   left: 1%;
   right: 1%;
-  top: 85%;
-  margin: 0;
   overflow-x: clip;
+}
+
+#hero-detail{
+  bottom: 0.5%;
+  margin: 0;
+}
+
+.gray-title{
+  color:#454746;
+  letter-spacing: 4px;
+}
+
+.gray-p{
+  color:#454746;
+  font-weight:300;
+}
+
+.about{
+  height:80vh;
+  position:relative;
+}
+
+#gandalf-about{
+  height: 65vh;
+  margin: 0;
+  filter: drop-shadow(1vw 1vh 10px rgba(69,71,70,0.51));
+  position: absolute;
+  left: 70px;
+}
+
+.about-text{
+  position: absolute;
+  margin: 0;
+  left: 20%;
+  top: 30%;
+  overflow-wrap: break-word;
+  width: 18vw;
+}
+
+#about-title{
+  position: absolute;
+  left: 20%;
+  top: 25%;
+  width: 40vh;
+  margin: 0;
+}
+
+#gandalf-about-shadow{
+  height: 65vh;
+  position: absolute;
+  left: 62%;
+  top: 5%;
+}
+
+#gandalf-about-gondor{
+  position: absolute;
+  top: 0%;
+  background-color: #2c5a4a;
+  width: 70px;
+  height: 80px;
+  top: 132px;
+  padding: 5px 0;
+}
+
+#gandalf-about-rohan{
+  position: absolute;
+  background-color: #2c5a4a;
+  width: 70px;
+  height: 80px;
+  padding: 5px 0;
+  top: 222px;
+}
+
+.gandalf-portrait{
+  position: relative;
+  left: 50%;
+  top: -12%;
+}
+
+.race-category{
+  background-color: #000;
+  position: absolute;
+  width: 140px;
+  height: 60px;
+  margin-top: 72px;
+  left: -70px;
+}
+
+#gandalf-about-staff{
+  height: 3vh;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  left: 25%;
+}
+
+.race-category-p{
+  color: #FFF;
+  position: absolute;
+  margin: 0;
+  font-weight: 600;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%,-50%);
+}
+
+.green-detail{
+  position: absolute;
+  font-family: 'Tengwar Cursive';
+  font-weight: normal;
+  font-style: normal;
+  color: #2c5a4a;
+  font-size: 50px;
+  white-space: nowrap;
+  -webkit-transform: rotate(-90deg);
+}
+
+#about-detail{
+  top: 50%;
+  margin: 0;
+  left: -70px;
+}
+
+.origin{
+  position: relative;
+  height:85vh;
+}
+
+#gandalf-origin-portrait{
+  position: absolute;
+  height: 95vh;
+  top: -10vh;
+  left: 5vw;
+}
+
+#origin-quote{
+  position: absolute;
+  width: 60vh;
+  font-size: 32px;
+  font-weight: 800;
+  top: 5vh;
+  left: 43vw;
+  margin: 0px;
+}
+
+#origin-title{
+  position: absolute;
+  left: 60%;
+  top: 35%;
+  width: 15vh;
+  margin: 0px;
+}
+
+.origin-text{
+  position: absolute;
+    margin: 0px;
+    left: 60%;
+    top: 40%;
+    overflow-wrap: break-word;
+    width: 18vw;
+}
+
+#origin-detail{
+  top: 50%;
+  margin: 0;
+  right: -70px;
+}
+
+.appearances{
+  position: relative;
+  height: 90vh;
+  background-color:#2c5a4a
+}
+
+#appearances-detail{
+  top: 0.5%;
+  margin: 0;
 }
